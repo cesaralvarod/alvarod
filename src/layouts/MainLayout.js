@@ -6,7 +6,7 @@ import ResponsiveMenu from "../components/general/header/ResponsiveMenu";
 
 const MainLayout = ({ children }) => {
   return (
-    <div className="text-fontColor relative">
+    <div className="text-fontColor relative overflow-x-hidden">
       <Header />
       <ResponsiveMenu />
       <div>{children}</div>

@@ -24,6 +24,7 @@ module.exports = {
       },
       animation: {
         boung: "boung 2s ease-in-out infinite",
+        // width: "width 1s ease-out",
       },
     },
   },
