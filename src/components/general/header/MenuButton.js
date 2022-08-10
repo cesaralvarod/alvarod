@@ -9,7 +9,8 @@ const MenuButton = () => {
   const handleOpenMenu = () => dispatch(setMenuVisible(!menuVisible));
 
   useEffect(() => {
-    if (menuVisible) document.body.className = "overflow-y-hidden";
+    if (menuVisible)
+      document.body.className = "overflow-y-hidden md:overflow-y-auto";
     else document.body.className = "";
   }, [menuVisible]);
 

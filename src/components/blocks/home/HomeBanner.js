@@ -10,8 +10,8 @@ import bannerImg from "../../../assets/img/woman_desk.svg";
 
 const HomeBanner = () => {
   return (
-    <div className="px-[20px] py-[80px] pb-[120px] overflow-hidden">
-      <div className="md:max-w-[1500px] mx-auto relative">
+    <div className="px-[20px] py-[50px] xs:py-[80px] sm:pb-[120px] overflow-hidden">
+      <div className="md:max-w-[1500px] w-[95%] mx-auto relative">
         <div className="max-w-[650px] md:max-w-[800px] my-[60px] z-20">
           <h1 className="font-semibold uppercase text-[40px] sm:text-[50px] md:text-[60px] lg:text-[80px]">
             Es tu momento de crecer
@@ -24,7 +24,7 @@ const HomeBanner = () => {
           </h3>
           <a
             href="/"
-            className="inline-block text-second mt-[120px] text-[18px] md:text-[20px] lg:text-[24px] animate-bounce"
+            className="inline-block text-second mt-[60px] sm:mt-[120px] text-[18px] md:text-[20px] lg:text-[24px] animate-bounce"
           >
             <FontAwesomeIcon icon={faArrowDown} className="pr-2" /> Tenemos más
             para ti

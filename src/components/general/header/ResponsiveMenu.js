@@ -26,7 +26,8 @@ const ResponsiveMenu = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    if (menuVisible) document.body.className = "overflow-y-hidden";
+    if (menuVisible)
+      document.body.className = "overflow-y-hidden md:overflow-y-auto";
     else document.body.className = "";
   }, [menuVisible]);
 
@@ -36,7 +37,6 @@ const ResponsiveMenu = () => {
     <div
       className="w-full h-screen absolute inset-0 z-20 overflow-hidden flex justify-end md:hidden transition duration-500"
       style={{
-        // width: menuVisible ? "100%" : 0,
         transform: !menuVisible ? "translateX(800px)" : "translateX(0)",
       }}
     >

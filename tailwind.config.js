@@ -26,6 +26,9 @@ module.exports = {
         boung: "boung 2s ease-in-out infinite",
         // width: "width 1s ease-out",
       },
+      screens: {
+        xs: "480px",
+      },
     },
   },
   plugins: [],
