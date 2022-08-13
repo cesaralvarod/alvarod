@@ -6,4 +6,4 @@ const reducers = { ui: uiReducer };
 
 const rootReducer = combineReducers(reducers);
 
-export default configureStore({ reducer: { ui: uiReducer } });
+export default configureStore({ reducer: rootReducer });

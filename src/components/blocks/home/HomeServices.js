@@ -19,10 +19,7 @@ const HomeServices = () => {
             <h3 className="text-[20px] font-semibold">
               Desarrollo de Tiendas Online
             </h3>
-            <p className="pt-5">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
-              id!
-            </p>
+            <p className="pt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, accusantium?</p>
           </div>
           <div className="text-center bg-white border-2 border-solid border-fontColorGray rounded-xl p-10 transition sm:hover:shadow-lg sm:hover:translate-y-[-10px]">
             <div className="flex items-center justify-center mb-8">
@@ -32,8 +29,8 @@ const HomeServices = () => {
               Diseño de Páginas Web
             </h3>
             <p className="pt-5">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro,
-              id!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
+              mollitia!
             </p>
           </div>
           <div className="text-center bg-white border-2 border-solid border-fontColorGray rounded-xl p-10 transition sm:hover:shadow-lg sm:hover:translate-y-[-10px]">

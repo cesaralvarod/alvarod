@@ -1,7 +1,5 @@
 import React from "react";
 
-import { Link } from "react-router-dom";
-
 const DoForYou = () => {
   return (
     <div className="px-[20px] bg-fontColorWhite">
@@ -10,12 +8,14 @@ const DoForYou = () => {
           ¿Qué podemos hacer por ti?
         </h3>
         <p>Estamos encantados de poder construir tu próximo proyecto.</p>
-        <Link
-          to="/"
+        <a
+          href="https://api.whatsapp.com/send?phone=51963242353&text=Hola, estoy interesado en contruir mi web."
+          target="_blank"
+          rel="noreferrer"
           className="inline-block py-[10px] px-[20px] bg-second text-white font-semibold text-[18px] mt-[30px] rounded animate-boung"
         >
           Empecemos
-        </Link>
+        </a>
       </div>
     </div>
   );

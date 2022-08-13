@@ -88,13 +88,14 @@ const Footer = () => {
           </div>
           <div className="flex gap-8 items-center flex-wrap">
             {socialNetworks.map((icon, index) => (
-              <Link
-                to="/"
+              <a
+                href="/"
+                target="_blank"
                 key={"social-" + index}
                 className="bg-white w-[40px] h-[40px] rounded-full flex justify-center items-center hover:bg-primary hover:text-white transition"
               >
                 <FontAwesomeIcon icon={icon} className="text-[18px]" />
-              </Link>
+              </a>
             ))}
           </div>
         </div>
